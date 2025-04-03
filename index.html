@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licornes Rent - Rent a Magical Unicorn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #fce4ec;
+        }
+        header {
+            background: #ff4081;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .button {
+            background: #ff4081;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .pricing {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 200px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #ff4081;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>Licornes Rent - Rent Your Magical Companion</header>
+    <div class="container">
+        <h2>Experience the Magic!</h2>
+        <p>Rent a unicorn for special occasions, rides, or just for fun!</p>
+        <a href="#contact" class="button">Book Now</a>
+        
+        <h3>Our Pricing</h3>
+        <div class="pricing">
+            <div class="card">
+                <h4>Basic Ride</h4>
+                <p>1 Hour - $50</p>
+            </div>
+            <div class="card">
+                <h4>Magical Party</h4>
+                <p>3 Hours - $120</p>
+            </div>
+            <div class="card">
+                <h4>Full-Day Adventure</h4>
+                <p>6 Hours - $200</p>
+            </div>
+        </div>
+        
+        <h3 id="contact">Contact Us</h3>
+        <form>
+            <input type="text" placeholder="Your Name" required><br><br>
+            <input type="email" placeholder="Your Email" required><br><br>
+            <textarea placeholder="Your Message"></textarea><br><br>
+            <button type="submit" class="button">Send</button>
+        </form>
+    </div>
+    <footer>
+        &copy; 2025 Licornes Rent. All Rights Reserved.
+    </footer>
+</body>
+</html>
